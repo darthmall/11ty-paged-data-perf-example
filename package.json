@@ -1,0 +1,16 @@
+{
+  "name": "11ty-perf-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy --input=src --output=_site",
+    "benchmark": "DEBUG=Eleventy:Benchmark npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
